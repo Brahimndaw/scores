@@ -11,79 +11,104 @@
       <title>MLB ScoreBoard</title>
    </head>
    <body>
-      <div class="container">
-         <h1> Scores </h1>
-         <script>
-            $(document).ready(function(){
-
-              var onSuccess = function(data) {
-                var events = data["sports"][0]["leagues"][0]["events"];
-                if (events && events.length) {
-                  events.forEach(function(event, index, arr) {
-                    name1 = arr[index]["competitions"][0]["competitors"][0]["team"]["nickname"];
-                    nickName1 = arr[index]["competitions"][0]["competitors"][0]["team"]["name"];
-                    score1 = arr[index]["competitions"][0]["competitors"][0]["score"];
-                    var wholeName1 = name1 + " " + nickName1 + " " + score1
 
 
-                    name2  = arr[index]["competitions"][0]["competitors"][1]["team"]["nickname"];
-                    nickName2  = arr[index]["competitions"][0]["competitors"][1]["team"]["name"];
-                    score2  = arr[index]["competitions"][0]["competitors"][1]["score"];
-                    var wholeName2 = name2 + " " +nickName2 + " " + score2
-                    console.log(wholeName1 + " vs " + wholeName2);
-                     $("#scoreboard > div:nth-child(" + (index+1) + ")").append(wholeName1 + " vs " + wholeName2);
+        
 
 
-                    // $("#target2").append( wholeName1 + " vs " + wholeName2)
-                  });
-                }
-              }
-            /*
-                for(var i = 0; i<events.length; i++){
-                  name1 = events[i]["competitions"][0]["competitors"][0]["team"]["nickname"];
-                  nickName1 = events[i]["competitions"][0]["competitors"][0]["team"]["name"];
-                  score1 = events[i]["competitions"][0]["competitors"][0]["score"];
-                  var wholeName1 = name1 + " " + nickName1 + " " + score1
+         <center>
+            <h1> Scores </h1>
+           <article>
 
-                  name2  = events[i]["competitions"][0]["competitors"][1]["team"]["nickname"];
-                  nickName2  = events[i]["competitions"][0]["competitors"][1]["team"]["name"];
-                  score2  = events[i]["competitions"][0]["competitors"][1]["score"];
-                  var wholeName2 = name2 + " " +nickName2 + " " + score2
-                  }
-              };*/
-
-              $.getJSON('/mlb.json', onSuccess);
-
-
-
-            });
-         </script>
   <div id="scoreboard">
+
         <div id="first"></div>
+
         &nbsp;
         <div id="second"></div>
         &nbsp;
         <div id="three"></div>
         &nbsp;
         <div id="four"></div>
+          &nbsp;
         <div id="five"></div>
+          &nbsp;
         <div id="six"></div>
+          &nbsp;
         <div id="seven"></div>
+          &nbsp;
         <div id="eight"></div>
+          &nbsp;
         <div id="nine"></div>
+          &nbsp;
         <div id="ten"></div>
+          &nbsp;
         <div id="eleven"></div>
+          &nbsp;
         <div id="two"></div>
+          &nbsp;
         <div id="thirteen"></div>
+          &nbsp;
         <div id="fourteen"></div>
+          &nbsp;
         <div id="fifteen"></div>
+          &nbsp;
         <div id="sixteen"></div>
         </div>
   </div>
+  <article>
+</center>
 <br>
 <br><br><br><br><br><br><br>
 
 
+<div class="container">
+
+   <script>
+      $(document).ready(function(){
+
+        var onSuccess = function(data) {
+          var events = data["sports"][0]["leagues"][0]["events"];
+          if (events && events.length) {
+            events.forEach(function(event, index, arr) {
+              name1 = arr[index]["competitions"][0]["competitors"][0]["team"]["nickname"];
+              nickName1 = arr[index]["competitions"][0]["competitors"][0]["team"]["name"];
+              score1 = arr[index]["competitions"][0]["competitors"][0]["score"];
+              var wholeName1 = name1 + " " + nickName1 + " " + score1
+
+
+              name2  = arr[index]["competitions"][0]["competitors"][1]["team"]["nickname"];
+              nickName2  = arr[index]["competitions"][0]["competitors"][1]["team"]["name"];
+              score2  = arr[index]["competitions"][0]["competitors"][1]["score"];
+              var wholeName2 = name2 + " " +nickName2 + " " + score2
+              console.log(wholeName1 + " vs " + wholeName2);
+               $("#scoreboard > div:nth-child(" + (index+1) + ")").append(wholeName1 + " vs " + wholeName2);
+
+
+              // $("#target2").append( wholeName1 + " vs " + wholeName2)
+            });
+          }
+        }
+      /*
+          for(var i = 0; i<events.length; i++){
+            name1 = events[i]["competitions"][0]["competitors"][0]["team"]["nickname"];
+            nickName1 = events[i]["competitions"][0]["competitors"][0]["team"]["name"];
+            score1 = events[i]["competitions"][0]["competitors"][0]["score"];
+            var wholeName1 = name1 + " " + nickName1 + " " + score1
+
+            name2  = events[i]["competitions"][0]["competitors"][1]["team"]["nickname"];
+            nickName2  = events[i]["competitions"][0]["competitors"][1]["team"]["name"];
+            score2  = events[i]["competitions"][0]["competitors"][1]["score"];
+            var wholeName2 = name2 + " " +nickName2 + " " + score2
+            }
+        };*/
+
+        $.getJSON('/mlb.json', onSuccess);
+
+
+
+      });
+   </script>
 
    </body>
 </html>
