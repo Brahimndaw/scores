@@ -8,3 +8,54 @@
 @import "animate";
 @import "style";
 @import "custom";
+
+
+#scoreboard{
+  text-align: center;
+  font-family: Courier;
+	font-size:40px;
+}
+
+
+.phrase-1{
+  width:2500px;
+  height: 200px
+
+}
+
+.boxed {
+ border: 10px solid black ;
+}
+
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-moz-keyframes rotating {
+    from{
+        -moz-transform: rotate(0deg);
+    }
+    to{
+        -moz-transform: rotate(360deg);
+    }
+}
+@-ms-keyframes rotating {
+    from{
+        -ms-transform: rotate(0deg);
+    }
+    to{
+        -ms-transform: rotate(360deg);
+    }
+}
+@-keyframes rotating {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
