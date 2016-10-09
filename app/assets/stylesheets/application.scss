@@ -23,8 +23,17 @@
 
 }
 
+.module-header{
+  height:700px
+}
+
 .boxed {
  border: 10px solid black ;
+}
+
+
+table, td {
+   border: 1px solid black;
 }
 
 @-webkit-keyframes rotating {
