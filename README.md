@@ -3,7 +3,7 @@
 #Intro
 Welcome to the MLB Today Scoreboard application. If you are already familiar with Ruby on Rails and have installed it on your system. Feel free to jump to the Launching the app section. If you desire to directly access the code base that was written for this application. Please jump to the #mycode section at the bottom of this page. For all other inquiries. Please follow along.
 
-This is a Ruby on Rails application that used JavaSCript to parse a JSON data and append it to the DOM. The purpose of this application is to use the provided JSON object and retrieve the MLB scores of the day. The code base uses Javascript, HTML, CSS, and a little bit of ruby to navigate the application.
+This is a Ruby on Rails application that used JavaScript to parse a JSON file and append it to the DOM. The purpose of this application is to use the provided JSON object and retrieve the MLB scores of the day. The code base uses Javascript, HTML, CSS, and a little bit of ruby to navigate the application.
 
 #Rails Set up
 
@@ -33,23 +33,23 @@ If you wish to install Rails on Linux. Please follow the steps at http://blog.te
 
 #Accessing the app
 
-Now that we have Ruby and Ruby on Rails installed on your system. We can proceed to utilize the application.
+Now that we have Ruby on Rails installed on our system. We can proceed to utilize the application.
 
-First you need to choose or create the folder that you wish to clone the project in. You can also fork the project onto your own repositories if you desire greater accessibility to the code. However for the purpose of this exercise we will focusing on cloning and/or downloading it.
+First you need to choose the folder that you wish to clone the project in. You can also fork the project onto your own repositories if you desire greater accessibility to the code. However for the purpose of this exercise we will be focusing on cloning and/or downloading it.
 
 
-Once you have chosen what folder you want to copy the repository in you will need to copy the repository from this github link https://github.com/Brahimndaw/scores. You have the choice to either download the application or clone it. This can be done by clicking on the green button "clone or download" located to the left side of the page.
+Once you have chosen what folder you want to work in you will need to copy the repository. You have the choice to either download the application or clone it. This can be done by clicking on the green button "clone or download" located on the left side of the page.
 
-Now that the folder has been created and that you have cloned or downloaded the project  repository. You need to access the folder that is is through your terminal. You will need to cd in to your folder via command line to launch the Rails application.
+Now that the folder has been created and that you have cloned or downloaded the project  repository. You need to access that folder through your terminal. You can cd into your folder via your terminal command line to launch the Rails application.
 
 #Launching the app
 
-Once you have accessed the app through your terminal. You can launch the application by typing "rails s" on your command line. You can display the Rails app by opening your browser and heading to the local host port at http://localhost:3000/. Once there you can use the site and use the features as desired. You can directly access the MLB scores at http://localhost:3000/scoreboard. Those are two routes that the application contain.
+Once you have accessed the app through your terminal. You can launch the application by typing 'rails s' on your command line. You should than your application is running on your local port. You can display the Rails app by opening your browser and heading to the local host port at http://localhost:3000/. Once there you can use the sites features as desired. You can directly access the MLB scores at http://localhost:3000/scoreboard. Those are two routes that the application contain.
 
 #Test
-This application uses Jasmine unit testing and can be accessed by running the rake Jasmine command. Please check the Jasmine documentation for more information on how to utilize the testing framework to write better code at http://jasmine.github.io/.
+This application uses Jasmine unit testing and can be accessed by running the rake Jasmine command. The current tests are very basic but were meant to set a basis for the test that would be needed once the application increases in scale and complexity
 
-This application should include more tests over time.
+
 
 #Errors
 
