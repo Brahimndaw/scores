@@ -3,7 +3,7 @@
 #Intro
 Welcome to the MLB Today Scoreboard application. If you are already familiar with Ruby on Rails and have installed it on your system. Feel free to jump to the Launching the app section. If you desire to directly access the code base that was written for this application. Please jump to the #mycode section at the bottom of this page. For all other inquiries. Please follow along.
 
-This is a Ruby on Rails application that used JSON.MLB Data file to append objects to the DOM. The purpose of this application is to use the  JSON data to retrieve  the MLB scores of the day. The code base uses Javascript, HTML, CSS, and a little bit of ruby to navigate the application.
+This is a Ruby on Rails application that used JavaSCript to parse a JSON data and append it to the DOM. The purpose of this application is to use the provided JSON object and retrieve the MLB scores of the day. The code base uses Javascript, HTML, CSS, and a little bit of ruby to navigate the application.
 
 #Rails Set up
 
