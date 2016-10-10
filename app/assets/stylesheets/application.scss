@@ -18,25 +18,18 @@
    background-image: url("back.jpg");
 }
 
+.collapse{
+  font-size:40px;
+}
 
+.work-title{
+  font-size:40px;
+}
 
 .phrase-1{
   width:2500px;
   height: 200px
 
-}
-
-.module-header{
-  height:700px;
-}
-
-.boxed {
- border: 5px solid black ;
-
-}
-
-.advertisement{
-  text-align:left;
 }
 
 
@@ -50,6 +43,23 @@
     width: 100%;
     z-index: 1;
   }
+
+.module-header{
+  height:700px;
+
+}
+
+.boxed {
+ border: 5px solid black ;
+
+}
+
+.advertisement{
+  text-align:left;
+}
+
+
+
 
   .work-caption{
     font-family: 'Tangerine', serif;
@@ -89,4 +99,10 @@
     to{
         transform: rotate(360deg);
     }
+}
+
+
+
+.module-subtitle{
+text-align:left;
 }

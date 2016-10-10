@@ -49,7 +49,15 @@ Once you have accessed the app through your terminal. You can launch the applica
 #test
 This application uses Jasmine unit testing and can be accessed by running the rake Jasmine command. Please check the Jasmine documentation for more information on how to utilize the testing framework to write better code at http://jasmine.github.io/.
 
-his application has been quickly and therefore with more time. I hope to have it up and running with real time data and information.
+This application has been built quickly and therefore will gradually include more tests over time.
+
+#Errors
+
+In case the application takes time to load when switching routes. Reloading usually improves the speed. I would also check browsers. Firefox, Safari and chrome all have different perfomance metric depending on the code at hand. This application has usually fared better with safari.
+
+I hope to have it up and running with real time data and information pretty soon.
+
+Thank you ESPN and all who find this beta application valuable.
 
 Thanks,
 
