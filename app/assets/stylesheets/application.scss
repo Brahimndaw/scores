@@ -13,8 +13,8 @@
 #scoreboard{
   text-align: center;
   font-family: 'Tangerine', serif;
-	font-size:200px;
-  color: white;
+	font-size:150px;
+  color: #FFFAF0;
    background-image: url("back.jpg");
 }
 
@@ -50,7 +50,8 @@
 }
 
 .boxed {
- border: 5px solid black ;
+ border: 5px solid white ;
+ padding: 75px;
 
 }
 
@@ -59,14 +60,15 @@
 }
 
 
-
-
   .work-caption{
     font-family: 'Tangerine', serif;
   	font-size:20px;
 
   }
 
+.fonting{
+  text-indent: 600px;
+}
 
 @-webkit-keyframes rotating {
     from{
