@@ -46,7 +46,7 @@ Now that the folder has been created and that you have cloned or downloaded the 
 
 Once you have accessed the app through your terminal. You can launch the application by typing "rails s" on your command line. You can display the Rails app by opening your browser and heading to the local host port at http://localhost:3000/. Once there you can use the site and use the features as desired. You can directly access the MLB scores at http://localhost:3000/scoreboard. Those are two routes that the application contain.
 
-#test
+#Test
 This application uses Jasmine unit testing and can be accessed by running the rake Jasmine command. Please check the Jasmine documentation for more information on how to utilize the testing framework to write better code at http://jasmine.github.io/.
 
 This application should include more tests over time.
@@ -57,7 +57,7 @@ In case the application takes time to load when switching routes. Reloading the 
 
 I hope to have it up and running with real time data and information pretty soon.
 
-#mycode
+#MyCode
 
 Please follow the links to these folders for more information on the code base:
 
