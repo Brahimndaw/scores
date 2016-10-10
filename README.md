@@ -47,15 +47,13 @@ Now that the folder has been created and that you have cloned or downloaded the 
 Once you have accessed the app through your terminal. You can launch the application by typing 'rails s' on your command line. You should than your application is running on your local port. You can display the Rails app by opening your browser and heading to the local host port at http://localhost:3000/. Once there you can use the sites features as desired. You can directly access the MLB scores at http://localhost:3000/scoreboard. Those are two routes that the application contain.
 
 #Test
-This application uses Jasmine unit testing and can be accessed by running the rake Jasmine command. The current tests are very basic but were meant to set a basis for the test that would be needed once the application increases in scale and complexity
+This application uses Jasmine unit testing and can be accessed by running the rake Jasmine command. The current tests are very basic but were meant to set a basis for the testing that would be needed once the application increases in scale and complexity.
 
 
 
 #Errors
 
 In case the application takes time to load when switching routes. Reloading the pages usually fixes the speed. You can also change browsers. I've found that Firefox fares better with this application
-
-I hope to have it up and running with real time data and information pretty soon.
 
 #MyCode
 
@@ -70,6 +68,6 @@ Test: https://github.com/Brahimndaw/scores/blob/master/spec/javascripts/test.spe
 MLB JSON:  scores/public/mlb.json
 
 
-Thanks,
+Thanks you,
 
 Made in collaboration with data obtained from ESPN.
