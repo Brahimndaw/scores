@@ -70,4 +70,4 @@ MLB JSON:  scores/public/mlb.json
 
 Thanks you,
 
-Made in collaboration with data obtained from ESPN.
+Made in collaboration with data obtained from ESPN©.
